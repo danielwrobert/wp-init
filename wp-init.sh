@@ -16,7 +16,7 @@ echo "Creating a new database for your project..."
 wp db create
 
 echo "Installing WordPress..."
-read -p "Please enter the local development URL (default = ${currentdir}.test: " devurl
+read -p "Please enter the local development URL (default = ${currentdir}.test): " devurl
 devurl=${devurl:-${currentdir}.test}
 read -p "Please enter the site title (default = ${currentdir}): " title
 title=${title:-${currentdir}}
