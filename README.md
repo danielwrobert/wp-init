@@ -1,9 +1,14 @@
 # WP-Init
 
-A set of WP-CLI commands I frequently run to start up a new WP project.
+A set of WP-CLI commands w for starting up a new local WordPress environment.
 
 ## Usage
 
-Add this script to the directory you wish to install your WP project, execute it (`sh wp-init.sh`), and follow the prompts!
+- Add this script to the directory you wish to install your WP project.
+	- Technically, you can install it anywhere – just make sure you account for the location in the path to the `.sh` file when you execute the script in the next step!
+- Execute the script via the `sh wp-init.sh` command.
+- Follow the prompts!
+
+## Requirements
 
 This script assumes you have [WP-CLI](https://developer.wordpress.org/cli/commands/) setup and configured.
