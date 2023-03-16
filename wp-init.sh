@@ -29,8 +29,8 @@ read -p "Please enter the admin username (default = admin): " username
 username=${username:-admin}
 read -p "Please enter the admin password (default = password): " userpass
 userpass=${userpass:-password}
-read -p "Please enter the admin email (default = daniel.robert@automattic.com): " useremail
-useremail=${useremail:-daniel.robert@automattic.com}
+read -p "Please enter the admin email (default = example@example.com): " useremail
+useremail=${useremail:-example@example.com}
 wp core install --url=${devurl} --title="${title}" --admin_user=${username} --admin_password=${userpass} --admin_email=${useremail}
 
 # The following WooCommerce items rely on the WP-CLI ext: https://github.com/nielslange/woo-test-environment.
