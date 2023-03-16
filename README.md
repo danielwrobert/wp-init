@@ -11,4 +11,4 @@ A set of WP-CLI commands w for starting up a new local WordPress environment.
 
 ## Requirements
 
-This script assumes you have [WP-CLI](https://developer.wordpress.org/cli/commands/) setup and configured.
+This script assumes you have [WP-CLI](https://developer.wordpress.org/cli/commands/) setup and configured. If you want to install a WooCommerce environment with this script, you will also need to have the [woo-test-environment](https://github.com/nielslange/woo-test-environment) extension installed (you will be prompted during the installation).
