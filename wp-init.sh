@@ -1,8 +1,8 @@
 #!/bin/bash
 
-YELLOW="\033[1;33m"
-GREEN="\033[1;32m"
-NOCOLOR="\033[0m"
+YELLOW=$'\e[1;33m'
+GREEN=$'\e[1;32m'
+NOCOLOR=$'\e[0m'
 currentdir=${PWD##*/}
 currentuser=$(id -un)
 woocommerce=false
